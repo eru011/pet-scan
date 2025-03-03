@@ -1,0 +1,46 @@
+name: petscan
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  url_launcher: ^6.1.14
+  #firebase_core: ^2.15.1
+  #firebase_auth: ^4.9.0
+flutter:
+  fonts:
+    - family: Archivo  # Replace with your font family name
+      fonts:
+        - asset: assets/fonts/Archivo/Archivo-Regular.ttf
+        - asset: assets/fonts/Archivo/Archivo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Archivo/Archivo-SemiBold.ttf
+          weight: 600
+
+
+    - family: ArchivoNarrow
+      fonts:
+        - asset: assets/fonts/ArchivoNarrow/ArchivoNarrow-Regular.ttf
+        - asset: assets/fonts/ArchivoNarrow/ArchivoNarrow-Bold.ttf
+          weight: 700
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+  uses-material-design: true
+  assets:
+    - assets/google_icon.png
+    - assets/logo.png
+    - assets/logo2.png
+    - assets/catdog.png
+    - assets/featured_pet.png
+    - assets/onboarding1.png
+    - assets/onboarding2.png
+    - assets/onboarding3.png

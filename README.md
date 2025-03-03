@@ -1,1 +1,3 @@
-# pet-scan
+# petscan
+
+A new Flutter project.
