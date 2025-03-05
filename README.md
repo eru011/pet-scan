@@ -14,7 +14,6 @@ WellFur is a mobile application designed to provide a user-friendly interface fo
 ## Technology Stack
 - **Framework**: Flutter
 - **Language**: Dart
-- **State Management**: Provider / Riverpod (if used)
 - **UI Components**: Material Design / Custom Widgets
 
 ## Installation
@@ -25,8 +24,8 @@ WellFur is a mobile application designed to provide a user-friendly interface fo
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/wellfur-frontend.git
-   cd wellfur-frontend
+   git clone https://github.com/eru011/pet-scan.git
+   cd pet-scan
    ```
 2. Install dependencies:
    ```bash
@@ -40,12 +39,11 @@ WellFur is a mobile application designed to provide a user-friendly interface fo
 ## Folder Structure
 ```
 wellfur-frontend/
+│── assets/        # Images and resources
 │── lib/
 │   ├── main.dart  # Entry point of the app
 │   ├── screens/   # UI screens
 │   ├── widgets/   # Reusable UI components
-│   ├── providers/ # State management (if used)
-│── assets/        # Images and resources
 │── pubspec.yaml   # Dependencies and project metadata
 ```
 
